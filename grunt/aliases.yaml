@@ -1,0 +1,32 @@
+# YAML equivalent of grunt.registerTask(<taskname>, [<task1>, <task2>, ...])
+
+build-js:
+  - concat
+
+
+build-css:
+  - sass
+  - postcss
+
+
+build-dev:
+  - clean
+  - mkdir
+  - build-css
+  - build-js
+  # build html
+
+
+build-prod:
+  - build-dev
+  - cssmin
+  - uglify
+  - cacheBust
+  - exec:updateAssets
+
+
+default:
+  - build-dev
+  #- exec:updateAssets
+  - express
+  - watch
