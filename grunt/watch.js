@@ -26,7 +26,7 @@ module.exports = {
             "src/templates/**/*"
         ],
         "tasks" : [
-            "exec:generateHTML"
+            "build-html"
         ]
     }
 };

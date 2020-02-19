@@ -1,4 +1,4 @@
-const IS_DEVELOPMENT = process.env.NODE_ENV === 'development';
+var IS_DEVELOPMENT = process.env.NODE_ENV === 'development';
 
 module.exports = {
     build : {

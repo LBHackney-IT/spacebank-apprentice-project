@@ -8,13 +8,15 @@ build-css:
   - sass
   - postcss
 
-
+build-html:
+  - nunjucks
+  
 build-dev:
   - clean
   - mkdir
   - build-css
   - build-js
-  # build html
+  - build-html
 
 
 build-prod:
