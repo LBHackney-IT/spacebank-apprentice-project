@@ -1,0 +1,39 @@
+{
+  "name": "lbh-spacebank-apprentice-project",
+  "version": "1.0.0",
+  "description": "An apprentice web development training project",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LBHackney-IT/spacebank-apprentice-project.git"
+  },
+  "author": "Jayson Hunter",
+  "license": "ISC",
+  "homepage": "https://github.com/LBHackney-IT/spacebank-apprentice-project#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "grunt": "^1.0.4",
+    "grunt-cli": "^1.3.2",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-express-server": "^0.5.4",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-nunjucks-2-html": "^2.2.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^3.1.0",
+    "grunt-set-env": "^0.1.3",
+    "load-grunt-config": "^3.0.1",
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2",
+    "sass-lint": "^1.13.1"
+  }
+}
